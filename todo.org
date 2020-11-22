@@ -1,0 +1,23 @@
+
+
+- [ ] $5 + 10CHF = $10
+- [X] $5 * 2 = $10
+- [X] amountをprivateにする
+  なぜprivateにするかというのは状態変化させないため、
+  だがClojureはイミュータブルだから気にしなくてよい。
+- [X] Dollarの副作用をどうする？
+  Clojureでは問題にならない。イミュータブルだから
+  だが返す値はDollar型にしたほうがよかったな。
+- [ ] Moneyを丸め処理どうする？
+- [X] equals()
+  Clojureでは同じオブジェクトになるので不要
+- [ ] hashCode()
+- [ ] nullとの等価性比較
+- [ ] 他のオブジェクトとの等価性比較
+- [X] 5CHF * 2 = 10 CHF
+- [ ] DollarとFrancの重複
+- [X] equalsの一般化
+- [ ] timesの一般化
+- [X] FrancとDollarを比較する
+
+
